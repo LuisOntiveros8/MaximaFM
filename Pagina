@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máxima FM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #d30000;
+            padding: 20px;
+        }
+        .banner {
+            width: 728px;
+            height: 90px;
+            margin: 20px auto;
+            background-color: grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+        }
+        .content {
+            margin: 20px;
+        }
+        .player {
+            margin: 20px auto;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Máxima FM</h1>
+    </header>
+    
+    <div class="banner">Espacio para Banner 728x90</div>
+    
+    <div class="content">
+        <h2>Escucha en Vivo</h2>
+        <audio class="player" controls>
+            <source src="URL_DEL_STREAM" type="audio/mpeg">
+            Tu navegador no soporta el audio en vivo.
+        </audio>
+    </div>
+    
+    <div class="content">
+        <h2>Últimas Noticias</h2>
+        <p>Próximamente...</p>
+    </div>
+</body>
+</html>
