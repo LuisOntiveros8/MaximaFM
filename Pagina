@@ -57,3 +57,8 @@
     </div>
 </body>
 </html>
+/maxima-fm
+   ├── index.html  ✅ (debe estar aquí, no en una subcarpeta)
+   ├── styles.css
+   ├── script.js
+   ├── images/
